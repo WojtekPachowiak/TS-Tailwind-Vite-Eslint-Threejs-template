@@ -1,0 +1,26 @@
+{
+  "name": "ddg",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite www",
+    "build": "vite build www"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^9.3.0",
+    "eslint-plugin-jsdoc": "^48.2.6",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "@types/three": "^0.165.0",
+    "autoprefixer": "^10.4.20",
+    "lil-gui": "^0.19.1",
+    "stats.js": "^0.17.0",
+    "three": "^0.164.0"
+  }
+}

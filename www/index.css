@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  h1 {
+    @apply text-4xl font-bold self-center;
+  }
+
+  h2 {
+    @apply text-2xl font-bold;
+  }
+
+
+}
+
+@layer components {
+  /* This won't be included in your compiled CSS unless you actually use it */
+  .mycomponent {
+    @apply bg-teal-500 text-white py-0.5 px-1.5 rounded hover:bg-teal-400 cursor-pointer ;
+  }
+
+}
